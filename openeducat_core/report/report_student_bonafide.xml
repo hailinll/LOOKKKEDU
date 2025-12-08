@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_student_bonafide">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <t t-set="course_detail" t-value="o.course_detail_ids[:1]"/>
+                        <div class="mt-6 text-center">
+                            <h4 style="position:relative;font-size:25px;padding-bottom:5px; width: 34%; display:inline-block; border-bottom:2px solid black;">
+                                 <strong>在读证明</strong>
+                             </h4>
+                         </div>
+                        <br/>
+                        <div style="width: 100%; margin-bottom: 5px; font-size: 20px;">
+                            <span style="float: left;">
+                                <b>证书编号：</b>
+                                <span t-out="o.certificate_number or '____________'"/>
+                            </span>
+                            <span style="float: right;">
+                                <b>日期：</b>
+                                <span t-esc="time.strftime('%Y-%m-%d')" t-options="{'widget':'date'}"/>
+                            </span>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <br/>
+                        <div style="font-size: 20px;">
+                            <p>
+                                兹证明
+                                <strong><span t-out="o.title.shortcut or ''"/></strong>
+                                <strong><span t-out="o.name or ''"/></strong>
+                                <t t-if="course_detail and course_detail.state == 'running'">正在就读于</t>
+                                <t t-if="course_detail and course_detail.state == 'finished'">曾就读于</t>
+                                <strong><span t-out="course_detail.course_id.name if course_detail else  ''"/></strong>
+                                <t t-if="course_detail">
+                                    （<span t-out="course_detail.course_id.department_id.name if course_detail else ''"/>）
+                                </t>
+                                ，所在机构为 <strong><span t-out="o.company_id.name or ''"/></strong>，
+                                自 <b><span t-esc="course_detail.create_date if course_detail else ''" t-options="{'widget':'date'}"/></b> 至
+                                <b><span t-esc="time.strftime('%Y-%m-%d')"  t-options="{'widget':'date'}"/></b>。
+                            </p>
+                            <p>
+                                该生目前处于
+                                <t t-if="course_detail and (course_detail.academic_years_id.name or course_detail.academic_term_id.name)">
+                                    <strong><span t-out="course_detail.academic_years_id.name if course_detail else''"/></strong>
+                                    学年
+                                    <strong><span t-out="course_detail.academic_term_id.name if course_detail else''"/></strong>
+                                    学期
+                                </t>
+                                的 <strong><span t-out="course_detail.course_id.name if course_detail else''"/></strong> 项目，
+                                学籍号/学号：<strong><span t-out="course_detail.roll_number if course_detail else''"/></strong>。
+                            </p>
+                            <p>
+                                本证明系学生本人申请开具，用于 <strong><span t-out="data.get('purpose_display', '') if data else ''"/></strong>。
+                            </p>
+                            <div style="width: 100%; margin-top: 30px; display: flex; justify-content: space-between;">
+                               <div>
+                                   <b>负责人/校长</b><br/>
+                                   （签名与盖章）<br/>
+                                   姓名：<span t-out=" '_____________'"/><br/>
+                                   职务：<span t-out="'_____________'"/>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
