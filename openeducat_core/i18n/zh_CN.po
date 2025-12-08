@@ -33,7 +33,7 @@ msgstr "<b>日期：</b>"
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
 msgid "<b>PRINCIPAL</b>"
-msgstr "<b> Main </b>"
+msgstr "<b>校长</b>"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
@@ -42,17 +42,17 @@ msgid ""
 "                                            is / was a bonafide student of this school / college studying in"
 msgstr ""
 "<font color =“ white”/>\n"
-"                                            IS /是这所学校 /大学学习的真正学生"
+"                                            在本校/学院就读的在读学生"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "<span class=\"fa fa-info-circle \" title=\"Openeducat Enterprise Module\"/>"
-msgstr "<span class =“ fa fa-info-circle” title =“ openeducat企业模块”/>"
+msgstr "<span class=\"fa fa-info-circle \" title=\"OpenEduCat 企业版模块\"/>"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "<span class=\"fa fa-info-circle\" title=\"Openeducat Enterprise Module\"/>"
-msgstr "<span class =“ fa fa-info-circle” title =“ openeducat企业模块”/>"
+msgstr "<span class=\"fa fa-info-circle\" title=\"OpenEduCat 企业版模块\"/>"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.report_student_idcard
@@ -77,7 +77,7 @@ msgstr "<strong>课程：</strong>"
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.report_student_idcard
 msgid "<strong>Name:</strong>"
-msgstr "<strong>名称：</strong>"
+msgstr "<strong>姓名：</strong>"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -85,32 +85,31 @@ msgid ""
 "A versatile solution to manage student\n"
 "                                        grades and homework across all devices and platforms."
 msgstr ""
-"一个多功能的解决学生的解决方案\n"
-"                                        所有设备和平台的成绩和作业。"
+"一个可在所有设备和平台上管理学生成绩和作业的多功能方案。"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_faculty__blood_group__a+
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_student__blood_group__a+
 msgid "A+ve"
-msgstr "a+和"
+msgstr "A+ 型"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_faculty__blood_group__a-
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_student__blood_group__a-
 msgid "A-ve"
-msgstr "一个"
+msgstr "A- 型"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_faculty__blood_group__ab+
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_student__blood_group__ab+
 msgid "AB+ve"
-msgstr "ab+和"
+msgstr "AB+ 型"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_faculty__blood_group__ab-
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_student__blood_group__ab-
 msgid "AB-ve"
-msgstr "AB和"
+msgstr "AB- 型"
 
 #. module: openeducat_core
 #: model:op.student,first_name:openeducat_core.op_student_11
@@ -126,13 +125,13 @@ msgstr "阿拉夫"
 #: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_academic_term_tree
 #: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_student_course_search
 msgid "Academic Term"
-msgstr "学术术语"
+msgstr "学期"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_academic_year__academic_term_ids
 #: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_academic_year_form
 msgid "Academic Terms"
-msgstr "学术术语"
+msgstr "学期"
 
 #. module: openeducat_core
 #: model:ir.actions.act_window,name:openeducat_core.act_op_academic_year_view
@@ -169,7 +168,7 @@ msgstr "成就企业"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_subject__message_needaction
 #: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration__message_needaction
 msgid "Action Needed"
-msgstr "需要采取行动"
+msgstr "需要处理"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_batch__active
@@ -179,13 +178,13 @@ msgstr "需要采取行动"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__active
 #: model:ir.model.fields,field_description:openeducat_core.field_op_subject__active
 msgid "Active"
-msgstr "积极的"
+msgstr "启用"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__active_lang_count
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__active_lang_count
 msgid "Active Lang Count"
-msgstr "主动lang计数"
+msgstr "启用的语言数量"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__activity_ids
@@ -255,8 +254,8 @@ msgid ""
 "Adds a digital library\n"
 "                                                        feature to read books in OpenEduCat."
 msgstr ""
-"添加了一个数字图书馆\n"
-"                                                        在开放式核心中阅读书籍的功能。"
+"为 OpenEduCat 增加数字图书馆，\n"
+"                                                        支持在线阅读书籍。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -265,9 +264,8 @@ msgid ""
 "                                                            to the OpenEduCat learning management\n"
 "                                                            system."
 msgstr ""
-"添加了论坛功能\n"
-"                                                            向开放的学习管理管理\n"
-"                                                            系统。"
+"为 OpenEduCat 学习管理系统\n"
+"                                                            增加论坛功能。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -276,9 +274,8 @@ msgid ""
 "                                                            feature to the OpenEduCat learning\n"
 "                                                            management system."
 msgstr ""
-"添加了调查\n"
-"                                                            开放式学习的功能\n"
-"                                                            管理系统。"
+"为 OpenEduCat 学习管理系统\n"
+"                                                            添加调查功能。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -286,8 +283,8 @@ msgid ""
 "Adds facility management\n"
 "                                                    features to OpenEduCat."
 msgstr ""
-"增加了设施管理\n"
-"                                                    开放核能的功能。"
+"为 OpenEduCat 增加\n"
+"                                                    设施管理功能。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -296,9 +293,8 @@ msgid ""
 "                                                            features to the OpenEduCat learning\n"
 "                                                            management system."
 msgstr ""
-"增加游戏化\n"
-"                                                            开放式学习的功能\n"
-"                                                            管理系统。"
+"为 OpenEduCat 学习管理系统\n"
+"                                                            增加游戏化功能。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -306,19 +302,18 @@ msgid ""
 "Adds the ability to\n"
 "                                                            sell courses online."
 msgstr ""
-"添加了能力\n"
-"                                                            在线出售课程。"
+"新增在线出售课程的能力。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "Admission"
-msgstr "入场"
+msgstr "招生"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_admission_enterprise
 msgid "Admission Enterprise"
-msgstr "入学企业"
+msgstr "招生企业版"
 
 #. module: openeducat_core
 #: model:op.student,first_name:openeducat_core.op_student_4
@@ -350,8 +345,8 @@ msgid ""
 "Allows alumni to create job\n"
 "                                                        post."
 msgstr ""
-"允许校友创造工作\n"
-"                                                        邮政。"
+"允许校友创建并发布\n"
+"                                                        招聘岗位。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -360,7 +355,7 @@ msgid ""
 "                                                        their children's fee details."
 msgstr ""
 "允许父母查看\n"
-"                                                        他们的孩子的费用细节。"
+"                                                        子女的费用明细。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -504,7 +499,7 @@ msgstr "分配标题"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_subject__message_attachment_count
 #: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration__message_attachment_count
 msgid "Attachment Count"
-msgstr "依恋数"
+msgstr "附件数量"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_attendance
@@ -538,8 +533,8 @@ msgid ""
 "Automate lead and opportunity tracking\n"
 "                                        with a cutting-edge CRM for unmatched advantage."
 msgstr ""
-"自动铅和机会跟踪\n"
-"                                        具有无与伦比的优势的尖端CRM。"
+"使用先进的 CRM 自动化线索和商机跟踪，\n"
+"                                        获得无与伦比的优势。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__avatar_1920
@@ -551,37 +546,37 @@ msgstr "头像"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__avatar_1024
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__avatar_1024
 msgid "Avatar 1024"
-msgstr "阿凡达1024"
+msgstr "头像 1024"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__avatar_128
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__avatar_128
 msgid "Avatar 128"
-msgstr "阿凡达128"
+msgstr "头像 128"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__avatar_256
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__avatar_256
 msgid "Avatar 256"
-msgstr "阿凡达256"
+msgstr "头像 256"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__avatar_512
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__avatar_512
 msgid "Avatar 512"
-msgstr "阿凡达512"
+msgstr "头像 512"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_faculty__blood_group__b+
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_student__blood_group__b+
 msgid "B+ve"
-msgstr "B+和"
+msgstr "B+ 型"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_faculty__blood_group__b-
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_student__blood_group__b-
 msgid "B-ve"
-msgstr "乐队"
+msgstr "B- 型"
 
 #. module: openeducat_core
 #: model:op.program,name:openeducat_core.program_3
@@ -616,7 +611,7 @@ msgstr "BA-PY-SEMESTER-1"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_10
 msgid "BA-PY-Semester-2"
-msgstr "BA-PY-SEMESTR-2"
+msgstr "BA-PY-SEMESTER-2"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_32
@@ -656,7 +651,7 @@ msgstr "BCA-CC-SEMESTER-1"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_4
 msgid "BCA-CC-Semester-2"
-msgstr "BCA-CC-SEMESTR-2"
+msgstr "BCA-CC-SEMESTER-2"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_15
@@ -691,17 +686,17 @@ msgstr "BCOM-AF-SEMESTER-1"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_6
 msgid "BCOM-AF-Semester-2"
-msgstr "BCOM-AF-SEMESTR-2"
+msgstr "BCOM-AF-SEMESTER-2"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_21
 msgid "BCOM-AF-Semester-3"
-msgstr "BCOM-of-of-of-of-of-of-3"
+msgstr "BCOM-AF-Semester-3"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_22
 msgid "BCOM-AF-Semester-4"
-msgstr "BCOM-of-of-of-of-of-4"
+msgstr "BCOM-AF-Semester-4"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_23
@@ -711,17 +706,17 @@ msgstr "BCOM-AF-SEMESTER-5"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_24
 msgid "BCOM-AF-Semester-6"
-msgstr "BCom-of-of-of-of-6"
+msgstr "BCOM-AF-Semester-6"
 
 #. module: openeducat_core
 #: model:op.program,code:openeducat_core.program_6
 msgid "BT-CHE"
-msgstr "BT-C"
+msgstr "BT-CHE"
 
 #. module: openeducat_core
 #: model:op.program,code:openeducat_core.program_5
 msgid "BT-CIE"
-msgstr "Bt"
+msgstr "BT-CIE"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_7
@@ -731,7 +726,7 @@ msgstr "BTECH-CE-SEMESTER-1"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_25
 msgid "BTECH-CE-Semester-2"
-msgstr "BTECH-CE-SEMESTR-2"
+msgstr "BTECH-CE-SEMESTER-2"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_26
@@ -771,7 +766,7 @@ msgstr "BTECH-CH-SEMESTER-1"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_36
 msgid "BTECH-CH-Semester-2"
-msgstr "BTECH-CH-SEMESTR-2"
+msgstr "BTECH-CH-SEMESTER-2"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_37
@@ -806,7 +801,7 @@ msgstr "BTECH-CH-SEMESTER-8"
 #. module: openeducat_core
 #: model:op.program.level,name:openeducat_core.program_level_2
 msgid "Bachelors"
-msgstr "单身汉"
+msgstr "学士"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_backend_theme
@@ -916,13 +911,13 @@ msgstr "在读证明"
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_subject__type__both
 msgid "Both"
-msgstr "两个都"
+msgstr "两者"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__message_bounce
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__message_bounce
 msgid "Bounce"
-msgstr "弹跳"
+msgstr "退信"
 
 #. module: openeducat_core
 #: model:op.student,last_name:openeducat_core.op_student_16
@@ -1069,7 +1064,7 @@ msgstr "郑"
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_users__child_ids
 msgid "Childs"
-msgstr "孩子"
+msgstr "子联系人"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__city
@@ -1481,7 +1476,7 @@ msgstr "EE-EE-Semester-1"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_48
 msgid "DIPLOMA-EE-Semester-2"
-msgstr "EE-EE-SEMESTR-2"
+msgstr "EE-EE-SEMESTER-2"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_49
@@ -1561,9 +1556,8 @@ msgid ""
 "                                                            knowledge through well-designed blogs\n"
 "                                                            created by students or faculty."
 msgstr ""
-"交付和分享\n"
-"                                                            通过精心设计的博客知识\n"
-"                                                            由学生或教师创建。"
+"通过学生或教师创作的精心设计博客，\n"
+"                                                            传递并分享知识。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_course__department_id
@@ -1697,9 +1691,8 @@ msgid ""
 "                                                        expedite the assignment grading process with\n"
 "                                                        our platform."
 msgstr ""
-"有效管理和\n"
-"                                                        加快分配过程的加快\n"
-"                                                        我们的平台。"
+"使用我们的平台，高效管理并加快\n"
+"                                                        作业评分流程。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,help:openeducat_core.field_op_faculty__partner_share
@@ -1708,7 +1701,7 @@ msgid ""
 "Either customer (not a user), either shared user. Indicated the current "
 "partner is a customer without access or with a limited access created for "
 "sharing data."
-msgstr "要么客户(不是用户)，无论是共享用户。指出当前合作伙伴是无访问或为共享数据创建有限访问的客户。"
+msgstr "可为客户(非系统用户)或共享用户。表示当前合作伙伴是未开通访问权限或仅用于共享数据的有限访问客户。"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_subject__subject_type__elective
@@ -1763,8 +1756,8 @@ msgid ""
 "Enables OMR exam sheet scanning and\n"
 "                                        evaluation via mobile."
 msgstr ""
-"启用OMR检查表扫描和\n"
-"                                        通过手机进行评估。"
+"支持通过手机扫描并评估\n"
+"                                        OMR 考试答题卡。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -1772,8 +1765,8 @@ msgid ""
 "Enables configuration of assignment\n"
 "                                        types for streamlined academic administration."
 msgstr ""
-"实现分配配置\n"
-"                                        简化学术管理类型。"
+"支持配置作业类型，\n"
+"                                        简化教学管理。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -1781,13 +1774,13 @@ msgid ""
 "Enables configuration of exam details,\n"
 "                                        including types, rooms and other details."
 msgstr ""
-"实现考试详细信息的配置，\n"
-"                                        包括类型，房间和其他细节。"
+"支持配置考试详情，\n"
+"                                        包括类型、考场等信息。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "Enables online appointment booking."
-msgstr "启用在线约会预订。"
+msgstr "支持在线预约。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -1795,8 +1788,7 @@ msgid ""
 "Enables the creation of\n"
 "                                                        invoices for fee collection."
 msgstr ""
-"实现\n"
-"                                                        收取费用的发票。"
+"可创建用于收费的发票。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_academic_term__term_end_date
@@ -1830,9 +1822,8 @@ msgid ""
 "                                                    parents regarding their child's academic\n"
 "                                                    activities and achievements."
 msgstr ""
-"提高透明度\n"
-"                                                    父母关于孩子的学者\n"
-"                                                    活动和成就。"
+"提升家长对孩子学业活动\n"
+"                                                    与成果的透明度。"
 
 #. module: openeducat_core
 #. odoo-python
@@ -1970,12 +1961,12 @@ msgstr "女性"
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
-msgstr "用于存储消毒电话号码的字段。有助于加快搜索和比较。"
+msgstr "用于存储规范化后的电话号码字段，有助于加快搜索和比较。"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_academic_year__term_structure__final_year
 msgid "Final Year Grades subdivided by Quarters"
-msgstr "最后一年成绩由季度细分"
+msgstr "最后一年成绩按季度划分"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_student_course__state__finished
@@ -2171,8 +2162,8 @@ msgid ""
 "Helps you create online courses,\n"
 "                                            sections, and course materials."
 msgstr ""
-"帮助您创建在线课程，\n"
-"                                            部分和课程材料。"
+"帮助您创建在线课程、\n"
+"                                            章节和课程资料。"
 
 #. module: openeducat_core
 #: model:ir.module.category,description:openeducat_core.module_category_all_openeducat
@@ -2180,7 +2171,7 @@ msgstr ""
 #: model:ir.module.category,description:openeducat_core.module_category_openeducat
 #: model:ir.module.category,description:openeducat_core.module_category_openeducat_others
 msgid "Helps you manage your institutes different-different users."
-msgstr "帮助您管理机构不同不同的用户。"
+msgstr "帮助您管理机构内不同类型的用户。"
 
 #. module: openeducat_core
 #: model:op.student,first_name:openeducat_core.op_student_15
@@ -2190,7 +2181,7 @@ msgstr "亨利"
 #. module: openeducat_core
 #: model:op.student,last_name:openeducat_core.op_student_23
 msgid "Hill"
-msgstr "爬坡道"
+msgstr "Hill"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
@@ -2420,7 +2411,7 @@ msgid ""
 "Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
-msgstr "指示黑名单的消毒电话号码是手机号码。有助于区分模型中有移动设备和电话字段时，将哪个数字列入黑名单。"
+msgstr "指示被列入黑名单的规范化号码是否为手机号码；当模型中同时有手机和电话字段时，用于区分被拉黑的号码。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,help:openeducat_core.field_op_faculty__phone_blacklisted
@@ -2429,7 +2420,7 @@ msgid ""
 "Indicates if a blacklisted sanitized phone number is a phone number. Helps "
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
-msgstr "指示黑名单的消毒电话号码是电话号码。有助于区分模型中有移动设备和电话字段时，将哪个数字列入黑名单。"
+msgstr "指示被列入黑名单的规范化号码是否为座机号码；当模型中同时有手机和电话字段时，用于区分被拉黑的号码。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__industry_id
@@ -2537,8 +2528,8 @@ msgid ""
 "It enables students to\n"
 "                                                        sign in via kiosk mode and barcode scanner."
 msgstr ""
-"它使学生​​能够\n"
-"                                                        通过信息亭模式和条形码扫描仪登录。"
+"允许学生通过自助终端模式或\n"
+"                                                        条码扫描器登录。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2546,8 +2537,7 @@ msgid ""
 "It enables the management of alumni\n"
 "                                        records."
 msgstr ""
-"它使校友的管理\n"
-"                                        记录。"
+"用于管理校友档案。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2555,35 +2545,34 @@ msgid ""
 "It facilitates the applicant admission\n"
 "                                        process."
 msgstr ""
-"它有助于申请人入场\n"
-"                                        过程。"
+"有助于优化申请入学流程。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It is about Online Appointment Booking."
-msgstr "这是关于在线约会预订。"
+msgstr "用于在线预约预订。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It is about checking OMR exam sheets using mobile."
-msgstr "这是关于使用移动设备检查OMR考试表。"
+msgstr "用于通过手机检查 OMR 考试答题卡。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It is about parent teacher meeting related to student performance."
-msgstr "这是关于与学生绩效有关的家长教师会议。"
+msgstr "用于家长会场景，便于沟通学生表现。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid ""
 "It is fully integrated application which provides a facility to manage the "
 "timing details."
-msgstr "它是完全集成的应用程序，提供了管理计时细节的设施。"
+msgstr "一个完全集成的应用，用于管理时间安排等详细信息。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It is used To configure the job type"
-msgstr "它用于配置作业类型"
+msgstr "用于配置岗位类型"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2593,7 +2582,7 @@ msgstr "它用于配置技能类别。"
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It is used for admission procedure for the applicant."
-msgstr "它用于申请人的入学程序。"
+msgstr "用于处理申请人的招生流程。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2607,9 +2596,8 @@ msgid ""
 "                                        feature, creating registers for specific batches and courses\n"
 "                                        to track attendance."
 msgstr ""
-"它提供出席管理\n"
-"                                        功能，为特定批处理和课程创建寄存器\n"
-"                                        跟踪出勤率。"
+"提供考勤管理功能，\n"
+"                                        为特定批次和课程创建考勤表以跟踪出勤。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2617,8 +2605,7 @@ msgid ""
 "It provides the\n"
 "                                                    placement facility for student."
 msgstr ""
-"它提供了\n"
-"                                                    学生的安置设施。"
+"提供学生就业安置功能。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2626,7 +2613,7 @@ msgid ""
 "It provides the Attendance maintanance facility for an institute. To "
 "maintain attendance, attendance register is created for particular batch and"
 " course"
-msgstr "它为研究所提供了出勤维护设施。为了维持出勤，为特定批处理和课程创建了出勤登记册"
+msgstr "为院校提供考勤维护功能。为了记录出勤，会为特定批次和课程创建考勤表。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2634,30 +2621,29 @@ msgid ""
 "It provides the facility to\n"
 "                                        configure library management"
 msgstr ""
-"它为设施提供了\n"
-"                                        配置库管理"
+"提供配置图书馆管理的功能"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid ""
 "It provides the facility to configure exam related details like Exam types "
 "and Exam Rooms."
-msgstr "它提供了配置考试相关细节(例如考试类型和考试室)的设施。"
+msgstr "提供配置考试类型、考场等相关细节的功能。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It provides the facility to configure library management"
-msgstr "它提供了配置库管理的设施"
+msgstr "提供配置图书馆管理的功能"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It provides the facility to configure the assignment type."
-msgstr "它提供了配置分配类型的设施。"
+msgstr "提供配置作业类型的功能。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "It specifies achievement of student."
-msgstr "它指定了学生的成就。"
+msgstr "用于记录学生的成就。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2665,8 +2651,7 @@ msgid ""
 "It specifies health of the\n"
 "                                        student."
 msgstr ""
-"它指定了\n"
-"                                        学生。"
+"用于记录学生的健康状况。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2797,7 +2782,7 @@ msgstr "金"
 #. module: openeducat_core
 #: model:op.student,last_name:openeducat_core.op_student_14
 msgid "King"
-msgstr "国王"
+msgstr "King"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -2807,22 +2792,22 @@ msgstr "LMS"
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_lms_admission
 msgid "LMS Admission"
-msgstr "LMS入场"
+msgstr "LMS 招生"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_lms_blog
 msgid "LMS Blog Enterprise"
-msgstr "LMS博客企业"
+msgstr "LMS 博客企业版"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_lms
 msgid "LMS Enterprise"
-msgstr "LMS企业"
+msgstr "LMS 企业版"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_lms_forum
 msgid "LMS Forum Enterprise"
-msgstr "LMS论坛企业"
+msgstr "LMS 论坛企业版"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_lms_gamification
@@ -3039,7 +3024,7 @@ msgstr "MCA-BD-SEMESTER-1"
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_3
 msgid "MCA-BD-Semester-2"
-msgstr "MCA-BD-SEMESTR-2"
+msgstr "MCA-BD-SEMESTER-2"
 
 #. module: openeducat_core
 #: model:op.course,name:openeducat_core.op_course_19
@@ -3070,8 +3055,8 @@ msgid ""
 "                                                            with LMS Admission."
 msgstr ""
 "管理\n"
-"                                                            入学毫不费力\n"
-"                                                            与LMS入场。"
+"                                                            入学流程更轻松，\n"
+"                                                            搭配 LMS 招生。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -3081,8 +3066,8 @@ msgid ""
 "                                                        online admissions process"
 msgstr ""
 "管理\n"
-"                                                        流线和用户友好\n"
-"                                                        在线录取过程"
+"                                                        流畅且友好的\n"
+"                                                        在线招生流程"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -3486,17 +3471,17 @@ msgstr "OpenEducat Inc"
 #. module: openeducat_core
 #: model:ir.module.category,name:openeducat_core.module_category_openeducat_others
 msgid "OpenEduCat Others"
-msgstr "打开其他人"
+msgstr "OpenEduCat 其他"
 
 #. module: openeducat_core
 #: model:ir.model,name:openeducat_core.model_op_program
 msgid "OpenEduCat Program"
-msgstr "打开的核计划"
+msgstr "OpenEduCat 项目"
 
 #. module: openeducat_core
 #: model:ir.model,name:openeducat_core.model_op_program_level
 msgid "OpenEduCat Program level"
-msgstr "打开核计划级别"
+msgstr "OpenEduCat 项目级别"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -3505,9 +3490,8 @@ msgid ""
 "                                                        sending leave requests to different groups\n"
 "                                                        or sections, improving the user system."
 msgstr ""
-"开放核能允许\n"
-"                                                        向不同的小组发送休假请求\n"
-"                                                        或部分，改善用户系统。"
+"OpenEduCat 支持向不同小组或部门\n"
+"                                                        提交请假申请，提升用户体验。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -3521,8 +3505,8 @@ msgid ""
 "Database Backup module user can generate and store database backups to "
 "multiple location."
 msgstr ""
-"打开的自动备份模块可帮助您在定期时间内自动生成数据库的备份。生成的备份可以存储到本地存储，FTP服务器，SFTP服务器，Dropbox，Google "
-"Drive或OneDrive.user可以启用自动删除选项以自动删除旧备份。用户可以使电子邮件通知通知备份生成和存储的成功和失败。使用自动数据库备份模块用户可以生成并将数据库备份存储到多个位置。"
+"OpenEduCat 自动备份模块可按固定周期自动生成数据库备份。生成的备份可以存储到本地存储、FTP/SFTP 服务器、Dropbox、Google "
+"Drive 或 OneDrive。用户可以启用自动删除旧备份，也可以开启邮件通知以了解备份生成和存储的成功或失败。借助自动数据库备份模块，您可以将数据库备份生成并保存到多个位置。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -3997,7 +3981,7 @@ msgstr "萨米拉"
 #: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__phone_sanitized
 #: model:ir.model.fields,field_description:openeducat_core.field_op_student__phone_sanitized
 msgid "Sanitized Number"
-msgstr "消毒号码"
+msgstr "规范化号码"
 
 #. module: openeducat_core
 #: model:op.faculty,first_name:openeducat_core.op_faculty_10
@@ -4011,9 +3995,8 @@ msgid ""
 "                                                        methods like CCE, CPA, and more with just a\n"
 "                                                        few clicks."
 msgstr ""
-"安排考试使用\n"
-"                                                        诸如CCE，CPA和更多方法等方法\n"
-"                                                        点击几下。"
+"只需几次点击，\n"
+"                                                        即可按 CCE、CPA 等方式安排考试。"
 
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
@@ -4022,9 +4005,8 @@ msgid ""
 "                                                            and faculty with just a few clicks on a\n"
 "                                                            single screen."
 msgstr ""
-"安排会议并通知学生\n"
-"                                                            和教师只需单击几下\n"
-"                                                            单屏幕。"
+"在单个界面上只需几次点击，\n"
+"                                                            即可安排课程并通知学生和教师。"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_scholarship_enterprise
@@ -4624,12 +4606,12 @@ msgstr "托尼"
 #. module: openeducat_core
 #: model_terms:ir.ui.view,arch_db:openeducat_core.res_config_settings_view_form_core
 msgid "Transportation"
-msgstr "运输"
+msgstr "交通"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_res_config_settings__module_openeducat_transportation_enterprise
 msgid "Transportation Enterprise"
-msgstr "运输企业"
+msgstr "交通企业版"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_academic_year__term_structure__two_sem
@@ -4639,12 +4621,12 @@ msgstr "两个学期"
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_academic_year__term_structure__two_sem_qua
 msgid "Two Semesters subdivided by Quarters"
-msgstr "两个学期被季度细分"
+msgstr "两个学期按季度细分"
 
 #. module: openeducat_core
 #: model:ir.model.fields.selection,name:openeducat_core.selection__op_academic_year__term_structure__two_sem_final
 msgid "Two Semesters subdivided by Quarters and Final Exams"
-msgstr "两个学期由季度和期末考试细分"
+msgstr "两个学期按季度和期末考试划分"
 
 #. module: openeducat_core
 #: model:ir.model.fields,field_description:openeducat_core.field_op_subject__type

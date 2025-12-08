@@ -18,13 +18,13 @@ msgstr ""
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__active
 msgid "Active"
-msgstr "积极的"
+msgstr "启用"
 
 #. module: openeducat_classroom
 #: model_terms:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_form
 #: model_terms:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
 msgid "Archived"
-msgstr "存档"
+msgstr "已归档"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__asset_id
@@ -40,7 +40,7 @@ msgstr "资产管理"
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__batch_id
 msgid "Batch"
-msgstr "批"
+msgstr "批次"
 
 #. module: openeducat_classroom
 #: model_terms:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
@@ -67,12 +67,12 @@ msgstr "教室"
 #: model_terms:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
 #: model_terms:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_tree
 msgid "Classroom"
-msgstr "课堂"
+msgstr "教室"
 
 #. module: openeducat_classroom
 #: model:ir.model,name:openeducat_classroom.model_op_asset
 msgid "Classroom Assets"
-msgstr "课堂资产"
+msgstr "教室资产"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__code
@@ -95,13 +95,13 @@ msgstr "课程"
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__create_uid
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__create_uid
 msgid "Created by"
-msgstr "由"
+msgstr "创建者"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__create_date
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__create_date
 msgid "Created on"
-msgstr "创建"
+msgstr "创建时间"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__display_name
@@ -117,7 +117,7 @@ msgstr "设施"
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__facilities
 msgid "Facility Lines"
-msgstr "设施线"
+msgstr "设施明细"
 
 #. module: openeducat_classroom
 #: model:ir.model.constraint,message:openeducat_classroom.constraint_op_facility_line_unique_facility_classroom
@@ -128,13 +128,13 @@ msgstr "设施名称存在。请选择一个唯一名称或更新数量。"
 #. module: openeducat_classroom
 #: model_terms:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
 msgid "Group By..."
-msgstr "小组by ..."
+msgstr "分组依据..."
 
 #. module: openeducat_classroom
 #: model:ir.module.category,description:openeducat_classroom.module_category_all_op_classroom
 #: model:ir.module.category,description:openeducat_classroom.module_category_openeducat_classroom
 msgid "Helps you manage your institutes different-different users."
-msgstr "帮助您管理机构不同不同的用户。"
+msgstr "帮助您管理机构内不同类型的用户。"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__id
@@ -146,18 +146,18 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__write_uid
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__write_uid
 msgid "Last Updated by"
-msgstr "最后更新"
+msgstr "最后更新者"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__write_date
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__write_date
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "最后更新时间"
 
 #. module: openeducat_classroom
 #: model:ir.model,name:openeducat_classroom.model_op_facility_line
 msgid "Manage Facility Line"
-msgstr "管理设施线"
+msgstr "管理设施明细"
 
 #. module: openeducat_classroom
 #: model:res.groups,name:openeducat_classroom.group_op_classroom_manager
@@ -168,12 +168,12 @@ msgstr "管理员"
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__name
 #: model_terms:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
 msgid "Name"
-msgstr "姓名"
+msgstr "名称"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom__capacity
 msgid "No Of Person"
-msgstr "没有人"
+msgstr "容纳人数"
 
 #. module: openeducat_classroom
 #: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset__product_id
