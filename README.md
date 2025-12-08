@@ -92,8 +92,3 @@ docker exec lookkkedu-odoo odoo -c /etc/odoo/odoo.conf \
 
 ## 许可证
 遵循 **LGPL-3.0**，详见 `LICENSE`。
-
-## 联系与支持
-- 论坛：<https://lookkkedu.com/forum>
-- 文档：<https://doc.lookkkedu.com/>
-- 邮箱：support@lookkkedu.com
