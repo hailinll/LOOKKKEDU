@@ -23,12 +23,12 @@ msgstr "<b>课程：</b>"
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "<b>From Date:</b>"
-msgstr "<b>从日期开始：</b>"
+msgstr "<b>起始日期：</b>"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "<b>To Date:</b>"
-msgstr "<b>到期：</b>"
+msgstr "<b>结束日期：</b>"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
@@ -42,7 +42,7 @@ msgstr ""
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.res_config_settings_view_user
 msgid "<span class=\"fa fa-info-circle\" title=\"Openeducat Enterprise Module\"/>"
-msgstr "<span class =“ fa fa-info-circle” title =“ openeducat企业模块”/>"
+msgstr "<span class=\"fa fa-info-circle\" title=\"OpenEduCat 企业版模块\"/>"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
@@ -68,13 +68,13 @@ msgstr "学年"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_needaction
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_needaction
 msgid "Action Needed"
-msgstr "需要采取行动"
+msgstr "需要处理"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__active
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__active
 msgid "Active"
-msgstr "积极的"
+msgstr "启用"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__activity_ids
@@ -84,7 +84,7 @@ msgstr "活动"
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "活动异常装饰"
+msgstr "活动异常标记"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__activity_state
@@ -112,61 +112,61 @@ msgstr "地址"
 #: model:ir.module.category,name:openeducat_admission.module_category_openeducat_admission
 #: model:ir.ui.menu,name:openeducat_admission.menu_admission_register
 msgid "Admission"
-msgstr "入场"
+msgstr "招生"
 
 #. module: openeducat_admission
 #: model:ir.actions.report,name:openeducat_admission.action_report_report_admission_analysis
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.admission_analysis_form
 msgid "Admission Analysis"
-msgstr "入学分析"
+msgstr "招生分析"
 
 #. module: openeducat_admission
 #: model:ir.actions.act_window,name:openeducat_admission.admission_analysis_act
 #: model:ir.model,name:openeducat_admission.model_report_openeducat_admission_report_admission_analysis
 msgid "Admission Analysis Report"
-msgstr "录取分析报告"
+msgstr "招生分析报告"
 
 #. module: openeducat_admission
 #: model:ir.model,name:openeducat_admission.model_admission_analysis
 msgid "Admission Analysis Wizard"
-msgstr "入学分析向导"
+msgstr "招生分析向导"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__admission_base
 msgid "Admission Base"
-msgstr "入场基地"
+msgstr "招生依据"
 
 #. module: openeducat_admission
 #: model:ir.model.fields.selection,name:openeducat_admission.selection__op_admission__state__admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Admission Confirm"
-msgstr "入学确认"
+msgstr "确认录取"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__admission_date
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_search
 msgid "Admission Date"
-msgstr "入场日期"
+msgstr "录取日期"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Admission Detail"
-msgstr "入学细节"
+msgstr "录取详情"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__admission_fees_line_ids
 msgid "Admission Fees Configuration"
-msgstr "入学费用配置"
+msgstr "录取费用配置"
 
 #. module: openeducat_admission
 #: model:ir.model,name:openeducat_admission.model_op_admission_fees_line
 msgid "Admission Fees Line"
-msgstr "入场费线"
+msgstr "录取费用行"
 
 #. module: openeducat_admission
 #: model:ir.model.fields.selection,name:openeducat_admission.selection__op_admission_register__state__admission
 msgid "Admission Process"
-msgstr "入学过程"
+msgstr "招生流程"
 
 #. module: openeducat_admission
 #: model:ir.model,name:openeducat_admission.model_op_admission_register
@@ -178,24 +178,24 @@ msgstr "入学过程"
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_search
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_tree
 msgid "Admission Register"
-msgstr "入场登记册"
+msgstr "招生登记簿"
 
 #. module: openeducat_admission
 #: model:ir.actions.act_window,name:openeducat_admission.act_open_op_admission_register_view
 msgid "Admission Registers"
-msgstr "入场登记册"
+msgstr "招生登记簿"
 
 #. module: openeducat_admission
 #: model:ir.ui.menu,name:openeducat_admission.menu_admission_analysis
 msgid "Admission Report"
-msgstr "录取报告"
+msgstr "招生报告"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__admission_ids
 #: model:ir.ui.menu,name:openeducat_admission.menu_op_admission_root
 #: model:ir.ui.menu,name:openeducat_admission.menu_op_admission_submenu
 msgid "Admissions"
-msgstr "招生"
+msgstr "录取记录"
 
 #. module: openeducat_admission
 #: model:op.admission,first_name:openeducat_admission.op_admission_4

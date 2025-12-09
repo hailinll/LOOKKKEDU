@@ -23,13 +23,13 @@ msgstr "<span class =“ o_stat_text”>父母</span>"
 #. module: openeducat_parent
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent__active
 msgid "Active"
-msgstr "积极的"
+msgstr "启用"
 
 #. module: openeducat_parent
 #: model_terms:ir.ui.view,arch_db:openeducat_parent.view_op_parent_form
 #: model_terms:ir.ui.view,arch_db:openeducat_parent.view_op_parent_search
 msgid "Archived"
-msgstr "存档"
+msgstr "已归档"
 
 #. module: openeducat_parent
 #: model:ir.model.constraint,message:openeducat_parent.constraint_op_parent_unique_parent
@@ -50,13 +50,13 @@ msgstr "创建父用户"
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent__create_uid
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent_relationship__create_uid
 msgid "Created by"
-msgstr "由"
+msgstr "创建者"
 
 #. module: openeducat_parent
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent__create_date
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent_relationship__create_date
 msgid "Created on"
-msgstr "创建"
+msgstr "创建时间"
 
 #. module: openeducat_parent
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent__display_name
@@ -105,13 +105,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent__write_uid
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent_relationship__write_uid
 msgid "Last Updated by"
-msgstr "最后更新"
+msgstr "最后更新者"
 
 #. module: openeducat_parent
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent__write_date
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent_relationship__write_date
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "最后更新者"
 
 #. module: openeducat_parent
 #: model:res.groups,name:openeducat_parent.group_op_parent_manager
@@ -128,7 +128,7 @@ msgstr "移动的"
 #: model:ir.model.fields,field_description:openeducat_parent.field_op_parent_relationship__name
 #: model_terms:ir.ui.view,arch_db:openeducat_parent.view_op_parent_search
 msgid "Name"
-msgstr "姓名"
+msgstr "名称"
 
 #. module: openeducat_parent
 #: model:ir.model,name:openeducat_parent.model_op_parent

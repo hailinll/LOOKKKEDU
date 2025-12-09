@@ -219,13 +219,13 @@ msgstr "公认"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_needaction
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_needaction
 msgid "Action Needed"
-msgstr "需要采取行动"
+msgstr "需要处理"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__active
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__active
 msgid "Active"
-msgstr "积极的"
+msgstr "启用"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__allocation_ids
@@ -248,7 +248,7 @@ msgstr "分配信息"
 #: model_terms:ir.ui.view,arch_db:openeducat_assignment.view_op_assignment_sub_line_form
 #: model_terms:ir.ui.view,arch_db:openeducat_assignment.view_op_assignment_sub_line_search
 msgid "Archived"
-msgstr "存档"
+msgstr "已归档"
 
 #. module: openeducat_assignment
 #: model:ir.model,name:openeducat_assignment.model_op_assignment
@@ -365,7 +365,7 @@ msgstr "作业"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_attachment_count
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_attachment_count
 msgid "Attachment Count"
-msgstr "依恋数"
+msgstr "附件数量"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields.selection,name:openeducat_assignment.selection__grading_assignment_type__assign_type__attendance
@@ -438,7 +438,7 @@ msgstr "课程"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__create_uid
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__create_uid
 msgid "Created by"
-msgstr "由"
+msgstr "创建者"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_grading_assignment__create_date
@@ -446,7 +446,7 @@ msgstr "由"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__create_date
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__create_date
 msgid "Created on"
-msgstr "创建"
+msgstr "创建时间"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__description
@@ -496,13 +496,13 @@ msgstr "完成的"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_follower_ids
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_follower_ids
 msgid "Followers"
-msgstr "追随者"
+msgstr "关注者"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_partner_ids
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "追随者(合作伙伴)"
+msgstr "关注者（合作伙伴）"
 
 #. module: openeducat_assignment
 #: model:ir.model,name:openeducat_assignment.model_grading_assignment
@@ -574,7 +574,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_is_follower
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_is_follower
 msgid "Is Follower"
-msgstr "是追随者"
+msgstr "是关注者"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_grading_assignment__issued_date
@@ -589,7 +589,7 @@ msgstr "发行日期"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__write_uid
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__write_uid
 msgid "Last Updated by"
-msgstr "最后更新"
+msgstr "最后更新者"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_grading_assignment__write_date
@@ -597,7 +597,7 @@ msgstr "最后更新"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__write_date
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__write_date
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "最后更新者"
 
 #. module: openeducat_assignment
 #: model:res.groups,name:openeducat_assignment.group_op_assignment_manager
@@ -616,7 +616,7 @@ msgstr "标记"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_has_error
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_has_error
 msgid "Message Delivery error"
-msgstr "消息传递错误"
+msgstr "消息投递错误"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_ids
@@ -637,7 +637,7 @@ msgstr "月"
 #: model_terms:ir.ui.view,arch_db:openeducat_assignment.view_op_assignment_search
 #: model_terms:ir.ui.view,arch_db:openeducat_assignment.view_op_assignment_type_search
 msgid "Name"
-msgstr "姓名"
+msgstr "名称"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__note
@@ -649,25 +649,25 @@ msgstr "笔记"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_needaction_counter
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_needaction_counter
 msgid "Number of Actions"
-msgstr "动作数量"
+msgstr "待处理数量"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_has_error_counter
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_has_error_counter
 msgid "Number of errors"
-msgstr "错误数"
+msgstr "错误数量"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,help:openeducat_assignment.field_op_assignment__message_needaction_counter
 #: model:ir.model.fields,help:openeducat_assignment.field_op_assignment_sub_line__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "需要操作的消息数量"
+msgstr "需要处理的消息数量"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,help:openeducat_assignment.field_op_assignment__message_has_error_counter
 #: model:ir.model.fields,help:openeducat_assignment.field_op_assignment_sub_line__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "带交货错误的消息数"
+msgstr "有投递错误的消息数量"
 
 #. module: openeducat_assignment
 #: model:ir.model.fields,field_description:openeducat_assignment.field_grading_assignment__point
@@ -709,7 +709,7 @@ msgstr "评论者"
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment__message_has_sms_error
 #: model:ir.model.fields,field_description:openeducat_assignment.field_op_assignment_sub_line__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "SMS交付错误"
+msgstr "短信投递错误"
 
 #. module: openeducat_assignment
 #: model:ir.actions.server,name:openeducat_assignment.assignment_sub_line_action
